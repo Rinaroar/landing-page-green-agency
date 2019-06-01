@@ -35,7 +35,7 @@ h1{
     font-size: 70px;
     text-align: center;
     margin-bottom: 0px;
-    margin-top: 8%;
+    margin-top: 7%;
 }
 
 p{
@@ -46,17 +46,16 @@ p{
     font-weight: bold;
 }
 
-form {
+form{
     text-align: center;
+    margin-top: 65px;
 }
 
 .form_input{
     display: inline;
     vertical-align: center;
-    margin-top: 20px;
     padding: 20px 10px 20px 10px;
     border: 5px solid yellow;
-
 }
 
 input, button{
@@ -64,25 +63,53 @@ input, button{
     color: white;
     border: none;
     width: 15%;
-
 }
 
 input::placeholder{
     color: lightgray;
-    font-size: 14px;
+    font-size: 16px;
     font-style: italic;
     padding: 10px;
 }
 
 
 button{
-    padding-left: 10%;
+    padding-right: 10%;
     font-size: 14px;
     font-style: bold;
     border-left: 3px yellow solid;
 }
 
-.facebook img {
-    width: 30px;
-    height: 30px;
+
+.network{
+    position: absolute;
+    display: flex;
+    top: 92%;
+    left: 2%;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.follow{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.facebook img{
+    width: 21px;
+    height: 21px;
+    margin-left: 24px;
+}
+
+.instagram img{
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
+}
+
+.twitter img{
+    width: 24px;
+    height: 24px;
+    margin-left: 24px;
 }
