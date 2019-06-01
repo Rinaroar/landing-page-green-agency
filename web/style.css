@@ -7,7 +7,7 @@ body {
     width: 99%;
     height: 100%;
     font-family: 'Raleway', sans-serif;
-    background-image: url('/greenagency_landing/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +42,7 @@ p{
     color: yellow;
     font-size: 25px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     font-weight: bold;
 }
 
@@ -74,12 +74,15 @@ input::placeholder{
     padding: 10px;
 }
 
-input{
 
-}
 button{
     padding-left: 10%;
     font-size: 14px;
     font-style: bold;
     border-left: 3px yellow solid;
+}
+
+.facebook img {
+    width: 30px;
+    height: 30px;
 }
